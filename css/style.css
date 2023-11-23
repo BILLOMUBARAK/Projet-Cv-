@@ -1,0 +1,133 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/cosmos3.jpeg");
+
+}
+
+.content{
+    max-width: 800px;
+    margin:  auto;
+    padding: 20px;
+    border-style: solid;
+    position: relative;
+    background-image: url("../img/cosmos.jpg");
+
+}
+.header{
+    border-style: solid;
+    border-radius: 12px;
+    position: relative;
+    color:dodgerblue;
+
+
+}
+.header img{
+    width:230px;
+    border-radius:50%
+
+}
+
+.header h1{
+    position: absolute;
+    front-size:36px;
+    margin:10px;
+    top:10px;
+    left:300px;
+    color: dodgerblue;
+}
+
+
+.adresse-Icon{
+    position: absolute;
+    top:120px;
+    left:320px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+.phone-Icon{
+    position: absolute;
+    top:80px;
+    left:290px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+.LinkedIn-Icon {
+    position: absolute;
+    top:120px;
+    right:160px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+.github-Icon{
+    position: absolute;
+    top:80px;
+    right:180px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+.uqac-link{
+    position: absolute;
+    top:80px;
+    right:70px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Profil{
+    border: 2px solid ;
+    border-radius: 12px;
+    padding: 5px;
+    padding-left:20px;
+
+    margin-right: 400px;
+    margin-top: 30px;
+    color:dodgerblue;
+
+}
+
+
+.experience{
+    position:absolute;
+    top: 206px;
+
+    right: 10px;
+    border: 2px solid ;
+    border-radius: 12px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right:50px;
+    margin-left: 400px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color:dodgerblue;
+
+}
+
+.formation{
+    position:absolute;
+    top: 490px;
+    right: 10px;
+    border: 2px solid ;
+    border-radius: 12px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right:50px;
+    margin-left: 400px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    color:dodgerblue;
+}
