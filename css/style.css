@@ -1,133 +1,136 @@
-*{
-
-
+/* Reset styles for all elements */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
 }
 
+/* Body styling */
 body {
     font-family: Arial, sans-serif;
     background-image: url("../img/cosmos3.jpeg");
-
 }
 
-.content{
+/* Styling for the main content container */
+.content {
     max-width: 800px;
-    margin:  auto;
+    margin: auto;
     padding: 20px;
     border-style: solid;
     position: relative;
     background-image: url("../img/cosmos.jpg");
-
 }
-.header{
+
+/* Styling for the header section with personal information */
+.header {
     border-style: solid;
     border-radius: 12px;
     position: relative;
-    color:dodgerblue;
-
-
-}
-.header img{
-    width:230px;
-    border-radius:50%
-
-}
-
-.header h1{
-    position: absolute;
-    front-size:36px;
-    margin:10px;
-    top:10px;
-    left:300px;
     color: dodgerblue;
 }
 
+/* Styling for the profile image in the header */
+.header img {
+    width: 230px;
+    border-radius: 50%;
+}
 
-.adresse-Icon{
+/* Styling for the name in the header */
+.header h1 {
     position: absolute;
-    top:120px;
-    left:320px;
+    font-size: 36px;
+    margin: 10px;
+    top: 10px;
+    left: 300px;
+    color: dodgerblue;
+}
+
+/* Styling for social and contact icons in the header */
+.adresse-Icon {
+    position: absolute;
+    top: 120px;
+    left: 320px;
     text-decoration: none;
     color: dodgerblue;
 }
-.phone-Icon{
+
+.phone-Icon {
     position: absolute;
-    top:80px;
-    left:290px;
+    top: 80px;
+    left: 290px;
     text-decoration: none;
     color: dodgerblue;
 }
+
 .LinkedIn-Icon {
     position: absolute;
-    top:120px;
-    right:160px;
-    text-decoration: none;
-    color: dodgerblue;
-}
-.github-Icon{
-    position: absolute;
-    top:80px;
-    right:180px;
-    text-decoration: none;
-    color: dodgerblue;
-}
-.uqac-link{
-    position: absolute;
-    top:80px;
-    right:70px;
+    top: 120px;
+    right: 160px;
     text-decoration: none;
     color: dodgerblue;
 }
 
-h2{
+.github-Icon {
+    position: absolute;
+    top: 80px;
+    right: 180px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.uqac-link {
+    position: absolute;
+    top: 80px;
+    right: 70px;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+/* Styling for heading level 2 elements */
+h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.Profil{
-    border: 2px solid ;
+
+/* Styling for the profile section */
+.Profil {
+    border: 2px solid;
     border-radius: 12px;
     padding: 5px;
-    padding-left:20px;
-
+    padding-left: 20px;
     margin-right: 400px;
     margin-top: 30px;
-    color:dodgerblue;
-
+    color: dodgerblue;
 }
 
-
-.experience{
-    position:absolute;
+/* Styling for the professional experience section */
+.experience {
+    position: absolute;
     top: 206px;
-
     right: 10px;
-    border: 2px solid ;
+    border: 2px solid;
     border-radius: 12px;
     padding: 0px;
     padding-left: 20px;
-    padding-right:50px;
+    padding-right: 50px;
     margin-left: 400px;
     margin-top: 6px;
     margin-bottom: 10px;
-    color:dodgerblue;
-
+    color: dodgerblue;
 }
 
-.formation{
-    position:absolute;
+/* Styling for the education section */
+.formation {
+    position: absolute;
     top: 490px;
     right: 10px;
-    border: 2px solid ;
+    border: 2px solid;
     border-radius: 12px;
     padding: 0px;
     padding-left: 20px;
-    padding-right:50px;
+    padding-right: 50px;
     margin-left: 400px;
     margin-top: 6px;
     margin-bottom: 10px;
-    color:dodgerblue;
+    color: dodgerblue;
 }
